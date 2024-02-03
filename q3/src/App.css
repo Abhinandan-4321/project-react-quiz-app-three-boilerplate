@@ -1,0 +1,203 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body{
+  background-color: #473a8d;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+#heading{
+  color: white;
+}
+
+#pl-btn{
+  background-color: #0ab306;
+  border: 1px solid black;
+  width: 9vw;
+  color: white;
+  border-radius: 50px;
+}
+
+
+.box{
+  background-color: white;
+  height: 29vw;
+  width: 70vw;
+}
+
+#ques{
+  padding-top:30px ;
+  color: black;
+}
+
+#noq {
+  position: absolute;
+  top: 15.5vw;
+  left: 20vw;
+  font-size: larger;
+  color: black;
+}
+
+
+#chooseOne{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 44px;
+  padding-bottom: 40px;
+  padding-top: 50px;
+}
+
+#ques-txt{
+  padding-top: 50px;
+  font-size: 25px;
+  color: black;
+}
+
+
+
+.HomeContainer{
+  padding-top: 140px;
+  padding-bottom: 200px;
+}
+
+.animals {
+  background-color: #1ea1f1;
+  height: 2vw;
+  padding-top: 12px;
+  width: 30vw;
+  border-radius: 50px;
+  color: white;
+  padding-bottom: 11px;
+}
+
+.options{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.click-btns{
+  width: 8vw;
+  height: 3vw;
+  padding: 10px;
+}
+
+#prev{
+  background-color: blue;
+  color: white;
+
+}
+
+#next{
+  color: white;
+  background-color: green;
+}
+
+#quit{
+  color: white;
+  background-color: red;  
+}
+
+
+.status{
+  padding-top: 10px;
+  font-size:28px;
+  color: black;
+}
+#finish{
+  background-color: #473a8d;
+}
+
+.endCont{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.forBtns{
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#hhhh{
+  background-color: white;
+  height: 36vw;
+  width: 70vw;
+}
+
+#color-blue{
+  width: 8vw;
+  height: 3vw;
+  background-color: gainsboro;
+  border:2px solid blue;
+  color: blue;
+  padding-top: 6px;
+
+}
+
+#color-green{
+  width: 8vw;
+  height: 3vw;
+  background-color: gainsboro;
+  border:2px solid green;
+  color: green;
+  padding-top: 4px;
+
+}
+
+.endCont{
+  color: black;
+}
